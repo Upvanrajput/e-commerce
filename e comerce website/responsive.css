@@ -1,0 +1,79 @@
+/* Mobile Styles */
+@media (max-width: 768px) {
+    header .nav-links {
+        display: none;
+    }
+
+    header .container {
+        flex-direction: column;
+    }
+
+    .main-banner {
+        height: 60vh;
+    }
+
+    .main-banner .banner-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .featured-products .product-grid {
+        flex-direction: column;
+    }
+
+    .product-item {
+        margin-bottom: 30px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .product-item {
+        flex: 0 0 48%;
+    }
+}
+
+/* Cart and Checkout Pages */
+@media (max-width: 768px) {
+    .cart-item, .checkout-form .form-group {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .cart-item img, .checkout-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .checkout-form h2 {
+        font-size: 1.2rem;
+    }
+
+    .cart-item .item-info, .checkout-form .form-group label {
+        text-align: left;
+        margin-bottom: 5px;
+    }
+}
+
+/* Responsive Contact Page */
+@media (max-width: 768px) {
+    .contact .container {
+        padding: 0 20px;
+    }
+
+    .contact h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form {
+        gap: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact-form button {
+        font-size: 0.9rem;
+    }
+}
